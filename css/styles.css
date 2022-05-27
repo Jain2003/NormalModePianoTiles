@@ -1,0 +1,61 @@
+body{
+  background-color: #FFD9C0;
+  text-align: center;
+  padding-top: 100px;
+}
+.content{
+  text-align: center;
+  /* padding: 1px; */
+  margin: 20px;
+}
+#title{
+  font-family: 'Montserrat', sans-serif;
+  color: #7D1E6A;
+  font-size: 90px;
+  font-weight: bolder;
+}
+#titleStart{
+  font-family: 'Roboto Slab', serif;
+  color: #FF6FB5;
+  font-size: 50px;
+  padding: 30px;
+}
+#score{
+  font-family: 'Roboto Slab', serif;
+  color: #FF6FB5;
+  font-size: 40px;
+  padding: 30px;
+}
+.buttons {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 12px;
+  display: inline-block;
+  height: 92px;
+  width: 92px;
+  border: 10px solid black;
+  border-radius: 20%;
+  background-color: #7D1E6A;
+}
+#play{
+  margin: 12px;
+  display: inline-block;
+  height: 72px;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 7%;
+  background-color: #7D1E6A;
+  font-size: 35px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: white;
+}
