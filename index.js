@@ -41,7 +41,7 @@ function checkAnswer(currentRound) {
   checkAnswerCount = 0;
 
     for (var i = 0; i < buttonPressed.length; i++) {
-      if (buttonPattern.includes(buttonPressed[i])) {
+      if (buttonPressed.includes(buttonPattern[i])) {
         checkAnswerCount++;
         if (checkAnswerCount === buttonPattern.length) {
           setTimeout(function() {
